@@ -27,7 +27,7 @@ class CountThread
         }
         else
         {
-            File.Create(@"./stopwatch_time.txt");
+            // File.Create(@"./stopwatch_time.txt");
             File.WriteAllText(@"./stopwatch_time.txt", "1");
         }
     }
